@@ -6,6 +6,12 @@ A React-based Product Listing Page (PLP) application that displays a collection 
 
 - **Link**: https://appscrip-task-psaiprathap.netlify.app
 
+## Project Structure
+
+- `src/App.js`: Main application component handling state and API calls.
+- `src/components/`: Contains reusable components like Header, Filters, ProductGrid, ProductCard, and Footer.
+- `public/`: Static assets and HTML template.
+
 ## Features
 
 - **Product Display**: Displays products in a responsive grid layout with images, titles, prices, and ratings.
@@ -74,17 +80,6 @@ npm test
 
 This runs the test suite in interactive watch mode.
 
-## Project Structure
-
-- `src/App.js`: Main application component handling state and API calls.
-- `src/components/`: Contains reusable components like Header, Filters, ProductGrid, ProductCard, and Footer.
-- `public/`: Static assets and HTML template.
-
 ## API
 
 The application fetches product data from [Fake Store API](https://fakestoreapi.com/products). No authentication is required for this public API.
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests for improvements or bug fixes.
-
